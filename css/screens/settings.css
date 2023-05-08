@@ -1,10 +1,33 @@
 .settings__setting {
-  padding: 20px 0;
-  border-bottom: 1px solid rgba(0, 0, 0, 0.1);
   font-size: 20px;
   display: flex;
   align-items: center;
   justify-content: space-between;
+  padding: 20px 0;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.1);
+}
+
+#setting-screen .alt-header {
+  top: 0;
+  z-index: 1;
+  position: fixed;
+  width: 100%;
+  box-sizing: border-box;
+  background-color: whitesmoke;
+}
+
+.main-setting {
+  margin-top: 105px;
+}
+
+.settings__bottom {
+  padding: 20px 0 40px;
+  border-bottom: var(--main-border);
+}
+
+.settings__bottom-bottom {
+  border: none;
+  padding-bottom: 90px;
 }
 
 .settings__setting i {
@@ -13,6 +36,34 @@
   font-size: 22px;
 }
 
+.settings__setting span {
+  font-weight: 500;
+}
+
+.settings__setting-column {
+  display: flex;
+  align-items: center;
+}
+
 .settings__setting-column:last-child {
   opacity: 0.5;
+  font-weight: 500;
+}
+
+.recommended-friends {
+  margin: 25px 0;
+  padding: 25px 0;
+  border-top: var(--main-border);
+  border-bottom: var(--main-border);
+}
+
+.settings-list:nth-child(2) {
+  margin-top: 20px;
+}
+
+.settings__setting-column .fa-circle-exclamation {
+  margin-top: 3px;
+  margin-left: 10px;
+  font-size: 17px;
+  color: var(--blue);
 }

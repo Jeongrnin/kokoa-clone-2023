@@ -1,19 +1,33 @@
 .icon-row {
   display: flex;
   justify-content: flex-start;
+  margin: 20px 0 15px;
 }
 
 .icon-row__icon {
   display: flex;
   flex-direction: column;
   align-items: center;
-  width: 25%;
+  width: 100%;
 }
 
 .icon-row__icon i {
-  font-size: 35px;
+  font-size: 31px;
 }
 
 .icon-row__icon span {
-  margin-top: 18px;
+  margin-top: 15px;
+  font-size: 15px;
+}
+
+.icon-row__openchat span,
+.icon-row__icon:first-child span,
+.icon-row__icon:nth-child(3) span,
+.icon-row__icon:last-child span {
+  margin-top: 23px;
+}
+
+.icon-row__icon:nth-child(2) span {
+  width: 60%;
+  text-align: center;
 }

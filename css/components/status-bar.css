@@ -1,4 +1,5 @@
 .status-bar {
+  z-index: 8;
   position: fixed;
   top: 0;
   width: 100%;
@@ -8,6 +9,7 @@
   padding: 5px 3px;
   font-weight: 500;
   font-size: 14px;
+  background-color: #f9f9fa;
 }
 .status-bar__column {
   width: 33%;

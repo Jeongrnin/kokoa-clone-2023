@@ -6,14 +6,14 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Settings - Kokoa Clone</title>
   </head>
-  <body>
+  <body id="setting-screen">
     <div class="status-bar">
       <div class="status-bar__column">
         <span>No Service</span>
         <i class="fa-sharp fa-solid fa-wifi"></i>
       </div>
       <div class="status-bar__column">
-        <span>18:43</span>
+        <span>12:04</span>
       </div>
       <div class="status-bar__column">
         <span>100%</span>
@@ -31,7 +31,7 @@
         </li>
         <li class="nav__btn">
           <a class="nav__link" href="chats.html">
-            <span class="nav__notification badge">1</span>
+            <span class="nav__notification badge">3</span>
             <i class="fa-regular fa-comment fa-2x"></i>
           </a>
         </li>
@@ -52,18 +52,18 @@
     <header class="alt-header">
       <div class="alt-header__column">
         <a href="javascript:history.back();">
-          <i class="fa-solid fa-chevron-left fa-2x"></i>
+          <i class="fa-solid fa-chevron-left fa-xl"></i>
         </a>
       </div>
       <div class="alt-header__column">
         <h1 class="alt-header__title">Settings</h1>
       </div>
       <div class="alt-header__column">
-        <i class="fa-solid fa-magnifying-glass fa-2x"></i>
+        <i class="fa-solid fa-magnifying-glass fa-xl"></i>
       </div>
     </header>
 
-    <main class="main-screen">
+    <main class="main-screen main-setting">
       <ul class="settings-list">
         <li class="settings__setting">
           <div class="settings__setting-column">
@@ -79,12 +79,79 @@
           </div>
           <div class="settings__setting-column"></div>
         </li>
-        <li class="settings__setting">
+        <li class="settings__setting settings__bottom">
           <div class="settings__setting-column">
             <i class="fa-solid fa-circle-info"></i>
             <span>Version</span>
           </div>
           <div class="settings__setting-column">Latest Version</div>
+        </li>
+      </ul>
+      <ul class="settings-list">
+        <li class="settings__setting">
+          <div class="settings__setting-column">
+            <i class="fa-solid fa-lock"></i>
+            <span>Privacy</span>
+          </div>
+          <div class="settings__setting-column"></div>
+        </li>
+        <li class="settings__setting">
+          <div class="settings__setting-column">
+            <i class="fa-regular fa-bell"></i>
+            <span>Notifications</span>
+          </div>
+          <div class="settings__setting-column"></div>
+        </li>
+        <li class="settings__setting">
+          <div class="settings__setting-column">
+            <i class="fa-regular fa-user"></i>
+            <span>Friends</span>
+          </div>
+          <div class="settings__setting-column"></div>
+        </li>
+        <li class="settings__setting">
+          <div class="settings__setting-column">
+            <i class="fa-regular fa-comment"></i>
+            <span>Chats</span>
+          </div>
+          <div class="settings__setting-column"></div>
+        </li>
+        <li class="settings__setting">
+          <div class="settings__setting-column">
+            <i class="fa-solid fa-display"></i>
+            <span>Display</span>
+            <i class="fa-solid fa-circle-exclamation fa-2xs"></i>
+          </div>
+          <div class="settings__setting-column"></div>
+        </li>
+        <li class="settings__setting">
+          <div class="settings__setting-column">
+            <i class="fa-solid fa-brush"></i>
+            <span>Themes </span>
+            <i class="fa-solid fa-circle-exclamation fa-2xs"></i>
+          </div>
+          <div class="settings__setting-column">Default theme</div>
+        </li>
+        <li class="settings__setting">
+          <div class="settings__setting-column">
+            <i class="fa-solid fa-phone"></i>
+            <span>Call</span>
+          </div>
+          <div class="settings__setting-column"></div>
+        </li>
+        <li class="settings__setting">
+          <div class="settings__setting-column">
+            <i class="fa-solid fa-globe"></i>
+            <span>Language</span>
+          </div>
+          <div class="settings__setting-column"></div>
+        </li>
+        <li class="settings__setting settings__bottom-bottom">
+          <div class="settings__setting-column">
+            <i class="fa-solid fa-ellipsis"></i>
+            <span>Etc</span>
+          </div>
+          <div class="settings__setting-column"></div>
         </li>
       </ul>
     </main>
